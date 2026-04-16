@@ -837,7 +837,7 @@ const doc = new Document({
 
 // ── Write file ─────────────────────────────────────────────────────────────────
 Packer.toBuffer(doc).then(buffer => {
-  const out = path.join(PROJ, 'CSTR_DRL_Technical_Report.docx');
+  const out = path.join(PROJ, 'CSTR_DRL_Technical_Report_v2.docx');
   fs.writeFileSync(out, buffer);
   console.log('Report written to:', out);
 });
