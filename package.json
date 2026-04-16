@@ -1,0 +1,24 @@
+{
+  "name": "uicps-fisac",
+  "version": "1.0.0",
+  "description": "Replication of **\"CSTR control with deep reinforcement learning\"** (Martinez et al., PSE 2021+) using **Twin Delayed DDPG (TD3)**.",
+  "main": "generate_report.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sushi2dragon/CSTR-Deep-Reinforcement-Learning-Controller.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/sushi2dragon/CSTR-Deep-Reinforcement-Learning-Controller/issues"
+  },
+  "homepage": "https://github.com/sushi2dragon/CSTR-Deep-Reinforcement-Learning-Controller#readme",
+  "dependencies": {
+    "docx": "^9.6.1"
+  }
+}
