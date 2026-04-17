@@ -1,0 +1,8 @@
+======================================================================
+TD3 Training for CSTR Control
+  Episodes: 10000
+  Steps/episode: 200
+  Device: cuda
+  Warmup steps: 1000
+======================================================================
+Episode    100/10000 | Avg Reward: -1606411.0 | Best: -100509.4 | Steps:    20000 | Speed: 0.2 ep/s

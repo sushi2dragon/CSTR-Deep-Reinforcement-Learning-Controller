@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cd /tmp)",
+      "Bash(pandoc --track-changes=all \"C:\\\\Users\\\\sarth\\\\OneDrive\\\\Desktop\\\\projects\\\\UICPS FISAC\\\\First principle model draft.docx\" -o first_principle.md)",
+      "Bash(python3:*)",
+      "Bash(unzip -q \"C:\\\\Users\\\\sarth\\\\OneDrive\\\\Desktop\\\\projects\\\\UICPS FISAC\\\\First principle model draft.docx\" -d first_principle)",
+      "Bash(unzip -q \"C:\\\\Users\\\\sarth\\\\OneDrive\\\\Desktop\\\\projects\\\\UICPS FISAC\\\\PSO_CSTR_MLAPClab.docx\" -d pso_cstr)",
+      "Bash(pip install:*)",
+      "Bash(python -c \"import numpy; import torch; import matplotlib; print\\(''numpy:'', numpy.__version__\\); print\\(''torch:'', torch.__version__\\); print\\(''matplotlib:'', matplotlib.__version__\\); print\\(''CUDA:'', torch.cuda.is_available\\(\\)\\)\")",
+      "Bash(python -c \"import numpy, torch, matplotlib; print\\(''OK - numpy:'', numpy.__version__, ''torch:'', torch.__version__, ''CUDA:'', torch.cuda.is_available\\(\\)\\)\")",
+      "Bash(pip show:*)",
+      "Bash(pip list:*)",
+      "Bash(pip --version)",
+      "Read(//c/Users/sarth/AppData/Local/Programs/Python//**)",
+      "Bash(py -0)",
+      "Bash(python3.12 --version)",
+      "Bash(python3.11 --version)",
+      "Bash(conda --version)",
+      "Bash(py -3.13 --version)",
+      "Bash(py -3.13 -m pip --version)",
+      "Bash(py -3.13 -m venv venv)",
+      "Bash(source venv/Scripts/activate)",
+      "Bash(python train.py --episodes 500 --log-interval 50 --save-interval 250 --save-dir checkpoints_test)",
+      "Bash(python -c \"import torch; print\\(''CUDA available:'', torch.cuda.is_available\\(\\)\\); print\\(''Device:'', torch.cuda.get_device_name\\(0\\) if torch.cuda.is_available\\(\\) else ''CPU''\\)\")",
+      "Bash(nvidia-smi)",
+      "Bash(python -c \"import torch; print\\(''CUDA:'', torch.cuda.is_available\\(\\), ''| Version:'', torch.version.cuda if torch.cuda.is_available\\(\\) else ''N/A''\\)\")",
+      "Bash(./venv/Scripts/python -m streamlit run dashboard.py)",
+      "Read(//c/Users/sarth/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/64db7085-9a16-41ca-be7f-482727926bf7/826498dc-623b-4096-949f-77cb1cc1e920/skills/docx/scripts/office/**)",
+      "Bash(npm list:*)",
+      "Bash(npm install:*)",
+      "Bash(npm init:*)",
+      "Bash(node generate_report.js)"
+    ]
+  }
+}

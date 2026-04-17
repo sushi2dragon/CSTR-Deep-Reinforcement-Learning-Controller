@@ -1,0 +1,18 @@
+issues in report: says that fig1 of the reference paper is an illustation of the cstr however fig 1 from the reference paper is a figure of the Reinforcement Learning loop
+
+
+
+ensure all the equations are sourced from "C:\Users\sarth\OneDrive\Desktop\projects\UICPS FISAC\First principle model draft.docx" such as volume balance etc
+
+
+
+have the top of each page just saying UICPS FISAC and the bottom just showing the page number
+
+
+
+Explain the type of rl algorithm used in the report as well (td3)
+
+remove sections 5.5, 6.1 entirely: Comparison with Reference Paper, limitations and future work
+
+
+dont compare the learning curve to the learning curve from the original paper, just explain the behaviour of the learning curve that is visible in this implementation 

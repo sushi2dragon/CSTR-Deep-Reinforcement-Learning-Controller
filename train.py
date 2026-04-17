@@ -17,7 +17,7 @@ from td3_agent import TD3Agent
 
 
 def train(
-    num_episodes=20000,
+    num_episodes=10000,
     max_steps=200,
     save_interval=1000,
     log_interval=100,
@@ -27,8 +27,12 @@ def train(
     """
     Train TD3 agent on CSTR environment.
 
+    The CSTR environment samples one of 7 MV-pairing scenarios at the start
+    of each episode (via env.reset()), so the agent learns a universal policy
+    over all 5 manipulated variables.
+
     Args:
-        num_episodes: Total training episodes (paper uses 20,000)
+        num_episodes: Total training episodes (10,000 for 5-MV extended model)
         max_steps: Steps per episode
         save_interval: Save checkpoint every N episodes
         log_interval: Print progress every N episodes
@@ -134,7 +138,7 @@ def train(
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description='Train TD3 on CSTR')
-    parser.add_argument('--episodes', type=int, default=20000, help='Number of episodes')
+    parser.add_argument('--episodes', type=int, default=10000, help='Number of episodes')
     parser.add_argument('--steps', type=int, default=200, help='Steps per episode')
     parser.add_argument('--save-dir', type=str, default='checkpoints', help='Checkpoint dir')
     parser.add_argument('--seed', type=int, default=42, help='Random seed')
